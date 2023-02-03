@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Raleway&display=swap" rel="stylesheet">
+
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/dd0ac4d279.js" crossorigin="anonymous"></script>
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>ICITeL</title>
+</head>
+<body>
+    <!--Title Section-->
+    <section class="dark-section" id="title">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <img id="icitelLogo" src="images/ICITeL Logo.png" alt="ICITeL Logo">
+                <a class="navbar-brand" href="#title">ICITeL</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#title">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#copyright">Contact Us</a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+        <!--Sliding Carousel-->
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="carousel-pics" src="images/Code Picture 1.jpg" alt="Coding Lobby">
+                    <div class="carousel-caption text-start">
+                        <h2 class="carousel-caption-heading">The Future of Computer Technology Education</h2>
+                        <p class="carousel-caption-body">ICITeL provides the latest technological topics and lessons for their learners.</p>
+                        <div class="attribution">
+                            <h6>Photo by <a class="light" href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> on <a class="light" href="https://unsplash.com/photos/Skf7HxARcoc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-pics" src="images/Server Picture 1.jpg" alt="Coding Lobby">
+                    <div class="carousel-caption text-start">
+                        <h2 class="carousel-caption-heading">Preparing the Next Generation of Users</h2>
+                        <p class="carousel-caption-body">Modern day users will be able to keep up with the advancements of computer technology</p>
+                        <div class="attribution">
+                            <h6>Photo by <a class="light" href="https://unsplash.com/@tvick?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Taylor Vick</a> on <a class="light" href="https://unsplash.com/photos/M5tzZtFCOfs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-pics" src="images/Coding Lobby Picture 1.jpg" alt="Coding Lobby">
+                    <div class="carousel-caption text-start">
+                        <h2 class="carousel-caption-heading">Learn with the help of various Technology Experts</h2>
+                        <p class="carousel-caption-body">Hear what Computer Technology professionals can share from their experiences.</p>
+                        <div class="attribution">
+                            <h6>Photo by <a class="dark" href="https://unsplash.com/@austindistel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Austin Distel</a> on <a class="dark" href="https://unsplash.com/photos/wawEfYdpkag?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+
+    <!--Features Section-->
+    <section class="colored-section" id="features">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="features-box col-lg-4">
+                    <span class="fas fa-calendar-days features-icon"></span>
+                    <h3>Flexible Schedules</h3>
+                    <p>Complete the weekly assignments at your own pace.</p>
+                </div>
+                <div class="features-box col-lg-4">
+                    <span class="fas fa-computer features-icon"></span>
+                    <h3>Easy to Apply.</h3>
+                    <p>Simply message us at any of our contact emails.</p>
+                </div>
+                <div class="features-box col-lg-4">
+                    <span class="fa-solid fa-folder-open features-icon"></span>
+                    <h3>Optimized Content</h3>
+                    <p>Each module carefully designed to meet today's standards</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Courses Section-->
+    <section class="dark-section" id="courses">
+        <div class="container-fluid">
+            <h2 class="section-heading">Explore the Top Courses</h2>
+            <p>Each course comes with numerous projects to help jumpstart your career.</p>
+            <div class="row upper-row container-fluid">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="courses-header">Computer Programming</h2>
+                        </div>
+                        <div class="card-body">
+                            <img class="courses-pics" src="images/Computer Programming Picture 1.jpg" alt="Computer Programming">
+                        </div>
+                        <div class="attribution">
+                            <h6 class="dark-text" >Photo by <a href="https://unsplash.com/@hishahadat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Shahadat Rahman</a> on <a href="https://unsplash.com/photos/gnyA8vd3Otc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="courses-header">Networking and Cybersecurity</h2>
+                        </div>
+                        <div class="card-body">
+                            <img class="courses-pics" src="images/Computer Networking Picture 1.jpg" alt="Computer Networking and Cybersecurity">
+                        </div>
+                        <div class="attribution">
+                            <h6 class="dark-text" >Photo by <a href="https://unsplash.com/@kirill2020?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kirill Sh</a> on <a href="https://unsplash.com/photos/eVWWr6nmDf8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="row lower-row container-fluid">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="courses-header">OS Analysis</h2>
+                        </div>
+                        <div class="card-body">
+                            <img id="analysis-pic" class="courses-pics" src="images/OS Analysis Picture 1.jpg" alt="OS Analysis">
+                        </div>
+                        <div class="attribution">
+                            <h6 class="dark-text" >Photo by <a href="https://unsplash.com/@cbpsc1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clint Patterson</a> on <a href="https://unsplash.com/photos/-jCY4oEMA3o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="courses-header">Multimedia Arts</h2>
+                        </div>
+                        <div class="card-body">
+                            <img class="courses-pics" src="images/Multimedia Arts Picture 1.jpg" alt="Multimedia Arts">
+                        </div>
+                        <div class="attribution">
+                            <h6 class="dark-text" >Photo by <a href="https://unsplash.com/@kumpan_electric?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kumpan Electric</a> on <a href="https://unsplash.com/photos/SYo5eazBrls?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section id="about">
+        <div class="container-fluid">
+            <div class="about-section">
+                <div class="row">
+                    <div class="about-text col-lg-6">
+                        <h2 class="about-heading">ICITeL</h2>
+                        <p class="about-paragraph">also known as the "Institute of Computer and Information Technology Learning", introduces the new era of computer technology education by providing both learning and career opportunities for their students.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="about-logo" src="images/ICITeL Logo.png" alt="ICITeL Logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Call to Action Section-->
+    <section id="call-to-action">
+        <div class="dark-section">
+            <div class="container-fluid">
+                <div>
+                    <h2 class="cta-heading">Start Your Career in Computer and Information Technology Today.</h2>
+                    <button type="button" class="btn btn-light btn-lg enroll-button">Enroll Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Copyright and Contact Section-->
+    <section class="colored-section" id="copyright">
+        <div class="social-media-icons">
+            <a href="https://www.facebook.com/AverageLearner"><span class="fa-brands fa-facebook social-icons"></span></a> 
+            <a href="https://www.youtube.com/channel/UCz3Iwe-gvsocCCLHqAbEt-g"><span class="fa-brands fa-youtube social-icons youtube"></span></a>
+            <a href="https://www.linkedin.com/in/arqskyhero/"><span class="fa-brands fa-linkedin social-icons"></span></a>
+            <a href="https://github.com/DeskPaSeat0"><span class="fa-brands fa-github social-icons github" ></span></a>
+        </div>
+        <div class="copyright-text">
+            <span>© Copyright </span>
+            <script>document.write(new Date().getFullYear())</script>
+            <span>Jeremy Arquiza</span>
+        </div>
+    </section>
+</body>
+</html>

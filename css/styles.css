@@ -1,0 +1,247 @@
+/*********************************ELEMENT SELECTORS**********************************************/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+/***************************************CLASS SELECTORS********************************************/
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 1% 0% 3% 0%
+}
+
+.section-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.dark-section {
+    background-color: #0E185F;
+    color: #eeeeeee7;
+}
+
+.colored-section {
+    background-color: #ffffff;
+    color: #2FA4FF;
+}
+
+.about-section {
+    color: #2FA4FF;
+}
+
+.second-colored-section {
+    background-color: #2FA4FF;
+    color: #eeeeeee7;
+}
+
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 3.0rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.navbar {
+    padding: 0 0 2.5rem 0;
+}
+
+.features-box {
+    padding: 5% 4.3% 5% 4.3%;
+}
+
+.features-icon {
+    margin-bottom: 1rem;
+    font-size: 4rem;
+}
+
+.features-icon:hover {
+    color: #00FFDD;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.carousel-caption {
+    font-size: 1.5rem;
+    bottom: 2.3rem;
+    padding-bottom: 2rem;
+    z-index: 10;
+}
+
+.carousel-item {
+    height: 75vh;
+}
+
+.carousel-pics {
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    padding: 0;
+}
+
+.carousel-caption-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 3.0rem;
+}
+
+.carousel-caption-body {
+    margin-bottom: 2rem;
+}
+
+.attribution {
+    margin-bottom: 0;
+}
+
+.light {
+    color: white;
+}
+
+.dark {
+    font-weight: bold;
+    color: turquoise;
+}
+
+.dark-text {
+    color: #0E185F;
+}
+
+.courses-pics {
+    height: 100%;
+    width: 100%;
+    padding: 5 3%;
+}
+
+.courses-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #0E185F;
+}
+
+.about-text {
+    margin: auto 0;
+}
+
+.about-heading {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.about-paragraph {
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.cta-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-bottom: 2rem;
+}
+
+.social-icons {
+    padding: 2rem 1rem;
+    font-size: 2rem;
+}
+
+.youtube {
+    color: red
+}
+
+.github {
+    color: black;
+}
+
+
+/***************************************ID SELECTORS**********************************************/
+
+#icitelLogo {
+    height: 10%;
+    width: 10%;
+}
+
+#title .container-fluid {
+    padding: 2% 15% 0% 12%;
+    text-align: center;
+}
+
+#features {
+    padding: 2rem 0 2rem 0;
+}
+
+#features .container-fluid {
+    padding: 8% 13%;
+}
+
+#courses {
+    padding: 4% 0;
+}
+
+#courses .container-fluid {
+    text-align: center;
+    padding: 2% 6%;
+}
+
+#call-to-action .dark-section {
+    padding: 7rem 0;
+}
+
+#copyright {
+    padding: 5rem 0;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+}
